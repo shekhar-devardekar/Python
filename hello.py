@@ -168,3 +168,83 @@
 # Print numbers from 10 to 1
 # for i in range(10,0,-1):
 #     print(i)
+# ----------------------------------------------------------------------------------------------
+
+
+
+# ----------------------------------------# Beginner #----------------------------------------#
+
+# Print numbers from 1 to 10
+# n = 1
+# while n<=10:
+#     print(n)
+#     n+=1
+
+# --------------------------------------------------
+# Print numbers from 10 to 1.
+# n = 10
+# while n>=1:
+#     print(n)
+#     n-=1
+# --------------------------------------------------
+# Print all even numbers from 1 to 10
+# n = 1
+# while n<=10:
+#     if(n%2==0):
+#         print(n)
+#     n+=1
+# -------------------------------------------------
+# Print all odd numbers from 1 to 20.
+# n = 1
+# while n<=20:
+#     if(n%2!=0):
+#         print(n)
+#     n+=1
+# ------------------------------------------------
+# Print "Bappa" 5 times.
+# n = 1
+# while n<=5:
+#     print(n,"Bappa")
+#     n+=1
+# ------------------------------------------------
+# Print the multiplication table of a number entered by the user.
+# n = 2
+# i = 1
+# while i<=10:
+#     num = n*i
+#     print(num)
+#     i+=1
+# -----------------------------------------------------
+# Print numbers from 1 to N, where N is entered by the user.
+# n = 1
+# N = int(input("Enter the number : "))
+# while n<=N:
+#     print(n)
+#     n+=1
+# -----------------------------------------------------
+# Find the sum of numbers from 1 to 10.
+# i = 1
+# n = 1
+# sum = 0
+# while n<=10:
+#     sum = sum + n
+#     n+=1 
+# print("sum : ",sum)
+# -----------------------------------------------------
+# Find the sum of numbers from 1 to N
+# i = 1
+# sum = 0 
+# n = int(input("Enter the number : "))
+# while i<=n:
+#     sum = sum + i
+#     i+=1
+# print(sum)
+# -----------------------------------------------------
+# Count from 1 to 100.
+# n = 1
+# while n<=100:
+#     print(n)
+#     n+=1
+
+# --------------------------------# Easy #-------------------------------------------------------#
+# Find the sum of even numbers from 1 to 50.
