@@ -248,3 +248,81 @@
 
 # --------------------------------# Easy #-------------------------------------------------------#
 # Find the sum of even numbers from 1 to 50.
+# n = 1
+# sum = 0
+# while n<=50:
+#     if(n%2==0):
+#         sum = sum + n
+#     n+=1
+# print("The sum of all even numbers between 1 to 50 is : ",sum)
+
+# -------------------------------------------------------------------------------------
+# Find the sum of odd numbers from 1 to 50.
+# n = 1
+# sum = 0
+# while n<=50:
+#     if(n%2!=0):
+#         sum = sum + n
+#     n+=1
+# print("The sum of all the odd numbers bwtween 1 to 50 is  : ",sum)
+
+# -------------------------------------------------------------------------------------
+# Print the square of numbers from 1 to 10.
+# n = 1
+# while n <= 10:
+#     sq = n * n
+#     print(n," : ",sq)
+#     n+=1
+# -------------------------------------------------------------------------------------
+# Print the cube of numbers from 1 to 10.
+# n = 1
+# sum = 0
+# while n<=10:
+#     cub = n * n * n
+#     print(n,":",cub)
+#     n+=1
+
+# -------------------------------------------------------------------------------------
+# Count how many numbers are between 1 and 100 that are divisible by 5.
+# n = 1
+# count = 0
+# while n<=100:
+#     if(n%5==0):
+#         count+=1
+#     n+=1
+# print(count)
+# -------------------------------------------------------------------------------------
+# Find the factorial of a number.
+# n = 5
+# fact = 1
+# while n>=1:
+#     fact = fact*n
+#     n-=1
+# print(fact)
+# -------------------------------------------------------------------------------------
+# Print the digits of a number one by one.
+# n = 1234
+# while n>0:
+#     digit = n%10
+#     print(digit)
+    # n=n//10    # // its call floor division it help us to remove the decimal part of the result.
+# Count the number of digits in a number.
+# n = 18
+# num =0
+# while n >0:
+#         digit =  n%10
+#         # print(digit)
+#         num+=1
+#         n = n//10
+# print("total numbers : ",num)
+
+# -------------------------------------------------------------------------------------
+# Reverse a number using a while loop.
+# n = 12345
+# rev = 0 
+# print("Original number is : ",n)
+# while n>0:
+#     digit = n%10
+#     rev = rev *10 +digit
+#     n = n//10
+# print("After reversed number : ",rev) 
