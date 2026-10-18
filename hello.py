@@ -326,3 +326,82 @@
 #     rev = rev *10 +digit
 #     n = n//10
 # print("After reversed number : ",rev) 
+
+# -------------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------------
+# a = 1
+# b = 2.65
+# print(a+b)
+
+# a = 23
+# b = float(a)
+# print(type(b))
+
+# a = int(input("Enter the number : "))
+# print("You entered ",a," number")
+# print("their type is ",(type(a)))
+
+# name = str(input("Enter your name : "))
+# if name.isalpha():
+#     print("Your name was registered as ",name)
+# else:
+#     print("Invalid name!")
+
+# a = "shekhar"
+# b = " shraddha"
+# print(a + b)
+
+# a = "shreyash"
+# print(len(a))
+
+# a = "shrivardhan"
+# print(a[0:])
+
+# a = "shrivardhan"
+# print(a[-6:-3])
+
+# a = "shekhar"
+# print(a[::-1])
+
+# a = "shekhar"
+# print(a.endswith("ar"))
+# print(a.capitalize())
+# print(a.find("h"))
+# print(a.count("h"))
+# print(a.replace("shekhar","shraddha"))
+
+# a = 82
+# b = 83
+# c = 87
+# if a==b==c:
+#     print("all values are equals")
+# elif a >= b and a >= c:
+#     print("Greatest number is:", a)
+# elif b >= a and b >= c:
+#     print("Greatest number is:", b)
+# elif a==b==c:
+#     print("all values are equals")
+# else:
+#     print("Greatest number is:", c)
+
+# a=[34,76,45.2]
+# print(len(a))
+
+# a = [65,23,98,12,90,45,32]
+# print(a[2:6])
+
+# a = [34,65,23,22]
+# a.append(43)
+# print(a)
+# a.sort()
+# print(a)
+# a.sort(reverse = True)
+# print(a)
+# a.reverse()
+# print(a)
+# a.insert(0,78)
+# print(a)
+# a.remove(22)
+# print(a)
+# a.pop(4)
+# print(a)
