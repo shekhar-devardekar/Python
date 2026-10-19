@@ -405,3 +405,120 @@
 # print(a)
 # a.pop(4)
 # print(a)
+
+# tup = (23,54,21)
+# print(type(tup))
+
+# a = (23,54,21)
+# print(a.index(54))
+
+# a = (45,32,"swayambhu",32,21,32,21,32)
+# print(type(a))
+# print(a.count(32))
+
+# list = list(input("Enter the 3 values : ").split())
+# copy_list = list.reverse()
+
+# if copy_list == list:
+#     print("polindrome")
+# else:
+#     print("not polindrome")
+
+# dict = {
+#     "name":"shekhar",
+#     "age":22,
+#     "class":"TY AI-ML"
+# }
+# print(dict)
+# print("Age is: ",dict["age"])
+# print(type(dict["name"]))
+# dict["name"]="shraddha"
+# print(dict)
+# dict["salary"]=450000
+# print(dict)
+# stud={
+#     "name":"shekhar",
+#     "age":22,
+#     "class":"TY AI-ML",
+# "company": {
+#     "salary":1000000,
+# }
+# }
+# print(stud["company"]["salary"])
+
+# dict = {
+#     "name":"shekhar",
+#     "age":34,
+#     "branch":"aiml"
+# }
+# print(dict.keys())
+# print(dict.values())
+# print(dict.items())
+# print(dict.get("age"))
+# dict.update({"city":"kolhapur"})
+# print(dict)
+
+# list = [12,43,65,32,12]
+
+# for el in list:
+#     print(el)
+
+# list = [12,65,32,89]
+
+# for el in list:
+#     print(el)
+# else:
+#     print("END")
+
+# # list = [12,65,34,32]
+
+# for el in list:
+#     if el == 656:
+#         print("65 found")
+#         break
+#     else:
+#         print("not fount")
+# list = [1,3,5,7,9,11]
+
+# for val in list:
+#     print(val)
+
+# tup = (12,43,65,31,65,23,43)
+
+# for el in tup:
+#     if el == 43:
+#         print("43 found ")
+#         continue
+#     else:
+#         print("finding.....")
+
+# list = [23,43,12,87,44]
+
+# idx = 0
+# for el in list:
+#     if el == 43:
+#         print("43 found at index number : ",idx)
+#     idx+=1
+# for el in range(11):
+#     print(el)
+
+# for el in range(1,11):
+#     print(el)
+
+# for el in range(2,20,2):
+#     print(el)
+
+# start = int(input("Enter the starting value: "))
+# end = int(input("Enter the ending value: "))
+# step = int(input("Enter the step: "))
+
+# for el in range(start,end,step):
+#     print(el)
+
+# n = int(input("Which table do you want to print: "))
+
+# for i in range(1,11):
+#     print(n*i)
+for i in range(5):
+    pass
+print("some useful work")
