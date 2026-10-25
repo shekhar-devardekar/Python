@@ -518,7 +518,178 @@
 # n = int(input("Which table do you want to print: "))
 
 # for i in range(1,11):
-#     print(n*i)
-for i in range(5):
-    pass
-print("some useful work")
+# #     print(n*i)
+# for i in range(5):
+#     pass
+# print("some useful work")
+# --------------------------------------------------------------------------------------------------------
+# Function 
+# def add(a,b):
+#     sum = a+b
+#     print("The sum is: ",sum)
+#     return sum
+# add(23,54)
+# #more line of code
+# add(21,56)
+# #more line of code
+# add(67,45)
+
+# ----------------------
+# def add(a,b):
+#     return a+b
+# sum = add(23,54)
+# print(sum)
+ 
+# ---------------------
+# def avg(a,b,c,d,e,f):
+#     sum = a+b+c+d+e+f
+#     average = sum / 6
+#     print("The average of marks: ",average)
+#     print(type(average))
+# avg(42,30,29,34,30,33)
+# --------------------
+# print("Hello",end=" ")
+# print("Shraddha")
+# ---------------------
+# def add(a=2,b=3):
+#     print(a+b)
+#     return a+b
+# add()
+# ---------------------
+# list = [22,45,21,56,89]
+# def print_len(list):
+#     print(len(list))
+# print_len(list)
+# ---------------------
+# list = [23,45,21,56,89]
+# def print_list(list):
+#     print(list)
+# print_list(list)
+# num = [1, 4, 5, 6, 7, 9]
+
+# def print_num(num):
+#     for i in num:
+#         print(i, end=" ")
+
+# print_num(num)
+# -----------------------------------------------------------------------------------
+              #  Here I Repeated the while loop and for loop questions 
+
+# Print numbers from 1 to 10
+# n = 1
+
+# while n<=10:
+#     print(n)
+#     n+=1 
+# ---------------------------------------------------
+# Print numbers from 10 to 1
+# n = 10
+# while n>=1:
+#     print(n)
+#     n-=1
+# ---------------------------------------------------
+# Print all even numbers from 1 to 20
+# n = 1
+# total = 0
+# while n<=20:
+#     if n%2==0:
+#         print(n)
+#         total+=1
+#     n+=1
+    
+# print("Total numbers is : ",total)
+# ---------------------------------------------------
+# Print all odd numbers from 1 to 20.
+# n = 1 
+# total = 0
+# while n<=20:
+#     if n%2!=0:
+#         print(n)
+#         total+=1
+#     n+=1
+# print("Total numbers : ",total)
+# ---------------------------------------------------
+# Print "Bappa" 5 times.
+
+# n = 1
+
+# while n<=5:
+#     print(n,"Bappa")
+#     n+=1
+# ---------------------------------------------------
+# Print the multiplication table of a number entered by the user.
+# n =  int(input("Enter the number : "))
+# mul = 0
+# x = 1
+# while x<=10:
+#     num=x*n
+#     print(num)
+#     x+=1
+# print("END")
+# ---------------------------------------------------
+# Print numbers from 1 to N, where N is entered by the user. 
+# n =  1
+# end =  int(input("Enter the End number : "))
+
+# while n>=end:
+#     print(n)
+#     n+=1
+# ---------------------------------------------------
+# Find the sum of numbers from 1 to 10.
+# n = 1
+# sum = 0
+# while n<=10:
+#     if n%2==0:
+#      sum = sum+n
+#     n+=1
+# print(sum)
+# ---------------------------------------------------
+# Find the sum of numbers from 1 to N.
+# n = 1
+# N = int(input("Enter the number : "))
+
+# while n <= N:
+#     print(n)
+#     n+=1
+# ---------------------------------------------------
+# # Count from 1 to 100.
+# n = 1
+# while n<=100:
+#     print(n)
+#     n+=1
+# # ---------------------------------------------------
+# Find the sum of even numbers from 1 to 50
+# n = 1
+# sum = 0
+
+# while n<=50:
+#     if n%2==0:
+#         sum = sum+n
+#     n+=1
+# print("Total sum : ",sum)
+# ---------------------------------------------------
+# Find the sum of odd numbers from 1 to 50.
+# n = 1
+# sum = 0
+
+# while n <= 10:
+#     if n%2!=0:
+#         sum = sum + n
+#     n+=1
+# print("Total sum :",sum)
+# ---------------------------------------------------
+# Print the square of numbers from 1 to 10
+# n = 1
+
+# while n<=10:
+#     sq = n*n
+#     print (n,"=",sq)
+#     n+=1
+# ---------------------------------------------------
+# Print the cube of numbers from 1 to 10
+# n = 1
+
+# while n<=10:
+#     sq = n*n*n
+#     print(n,"=",sq)
+#     n+=1
